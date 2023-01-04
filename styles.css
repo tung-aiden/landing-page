@@ -1,6 +1,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,6 +11,7 @@ body {
 img {
     width: 400px;
     height: auto;
+    margin-bottom: 30px;
 }
 
 .info-container img {
@@ -155,4 +157,13 @@ button {
 .signup-text-big {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 72px;
 }
